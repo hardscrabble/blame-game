@@ -1,6 +1,6 @@
 require "./animal"
 
-class Canine < Animal
+class Dog < Animal
   def age
     case human_years
     when 0..2 then human_years * 10.5
@@ -10,4 +10,4 @@ class Canine < Animal
   end
 end
 
-puts Canine.new(5).age
+puts Dog.new(5).age
